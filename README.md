@@ -42,22 +42,12 @@ pip install numpy pandas matplotlib seaborn nltk scikit-learn wordcloud xgboost
 - Data splitting into training and test sets
 - Training multiple models including:
   - Naive Bayes (MultinomialNB, GaussianNB, BernoulliNB)
-  - Support Vector Machine (SVM)
-  - Decision Tree
-  - Random Forest
-  - Logistic Regression
-  - K-Nearest Neighbors (KNN)
-  - Gradient Boosting Models (XGBoost, AdaBoost, Gradient Boosting, Extra Trees, Bagging Classifier)
 - Model evaluation on accuracy and precision scores
 
 ### 4. Model Comparison
 - Train and compare models on accuracy and precision
 - Model performance visualization using bar plots
 - Model improvement with hyperparameter tuning
-
-### 5. Ensemble Learning
-- Use of Voting Classifier (Soft Voting)
-- Utilize Stacking Classifier with a RandomForest final estimator
 
 ### 6. Model Saving
 After training the model, save the trained model (`model.pkl`) and TF-IDF vectorizer (`vectorizer.pkl`) using `pickle`
